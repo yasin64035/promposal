@@ -14,3 +14,42 @@ a {
 * {
   box-sizing: border-box;
 }
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  html,
+  body {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 640px) {
+  html,
+  body {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  html,
+  body {
+    font-size: 12px;
+  }
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Example usage */
+.header {
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.section {
+  margin: 2rem 0;
+  padding: 1rem;
+}
